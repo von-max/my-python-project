@@ -10,7 +10,9 @@
 ... if __name__ == "__main__":
 ...     length = int(input("🔑 Enter password length: "))
 ...     pwd = generate_password(length)
-...     print(f" Your secure Password:{pwd}")
+...     print(f" Your secure Password:{pwd}") 
+...     print(" Invalid input! please enter a number for the password length.")
+
 
 
 
